@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int main(){
-    char a;
-    a = getchar();
-    printf("%c",a);
+int main(void) {
+    char s1;
+    getchar();
+    getchar();
+    s1 = getchar();
+    printf("%c", s1);
 }
